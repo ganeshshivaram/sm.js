@@ -6,3 +6,5 @@ sm/sm.csproj
 sm/Properties/AssemblyInfo.cs
 sm.v12.suo
 sm/sm.csproj.user
+sm/index.html
+sm/js/app.js
