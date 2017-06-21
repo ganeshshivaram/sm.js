@@ -1,13 +1,13 @@
 # String Manipulator
 
-**sm.js**, or simply [S$](http://breakdance.io) is a simple and lightweight  javascript library to manipulate string values. **sm.js** is a utility-belt library for JavaScript that provides support for manipulating string values. In some ways, this is different from other string manipulation libraries because **sm.js** supports chained methods which allows you to seamlessly modify your string values with ease. 
+**sm.js**, or simply [S$](https://github.com/ganeshshivaram/sm.js) is a simple and lightweight  javascript library to manipulate string values. **sm.js** is a utility-belt library for JavaScript that provides support for manipulating string values. In some ways, this is different from other string manipulation libraries because **sm.js** supports chained methods which allows you to seamlessly modify your string values with ease. 
 
 # Advantages of using sm.js:
 
   - This is a jQuery like library which supports chaining in a clean way. For example, 
-     -  ***s$("$this is Ganesh shivaram#").between('$', '#').camelize();***
-     -  ***s$("$this is Ganesh shivaram#").between('$', '#').dasherize();***
-     -  ***s$("$<div>hi</div>#").between('$', '#').escapeHTML();***
+     -  *s$("$this is Ganesh shivaram#").between('$', '#').camelize();*
+     -  *s$("$this is Ganesh shivaram#").between('$', '#').dasherize();*
+     -  *s$("$<div>hi</div>#").between('$', '#').escapeHTML();*
   - By using sm.js, you can avoid code duplication by reusing the functions provided by the library.
 
 
