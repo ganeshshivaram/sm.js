@@ -7,7 +7,6 @@
   - This is a jQuery like library which supports chaining in a clean way. For example, 
      -  *s$("$this is Ganesh shivaram#").between('$', '#').camelize();*
      -  *s$("$this is Ganesh shivaram#").between('$', '#').dasherize();*
-     -  *s$("$<div>hi</div>#").between('$', '#').escapeHTML();*
   - By using sm.js, you can avoid code duplication by reusing the functions provided by the library.
 
 
