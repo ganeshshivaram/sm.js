@@ -16,7 +16,8 @@
   - When you install node.js, [npm](https://www.npmjs.com/) will also be installed.
   - Please run the following command.
      - npm install bower
-     - npm install string-manipulator
+     - npm install string-manipulator-library (to install as a node module)
+	 - bower install string-manipulator (to install as a bower component)
 
 # Usage
 
