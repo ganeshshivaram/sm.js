@@ -1,0 +1,22 @@
+{
+  "name": "string-manipulator",
+  "description": "Utility library that handles string manipulation",
+  "main": "sm.js",
+  "authors": [
+    "Ganesh Shivaram <ganesh.28987@gmail.com> (https://github.com/ganeshshivaram)"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "string",
+    "manipulator",
+    "s$"
+  ],
+  "homepage": "https://github.com/ganeshshivaram/sm.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
