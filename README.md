@@ -104,7 +104,7 @@ Return true if the string contains only letters and numbers.
 ##### Example
 ####
 ```sh
-s$('ganesh').isAlphaNumeric()    //"false"
+s$('@#$').isAlphaNumeric()    //"false"
 s$('ganesh05').isAlphaNumeric()    //"true"
 ```
 
@@ -120,7 +120,6 @@ Return true if the string is empty.
 ####
 ```sh
 s$('').isEmpty()    //"true"
-s$(null).isEmpty()    //"true"
 ```
 
 ####
@@ -262,7 +261,7 @@ Remove any underscores or dashes and convert a string into camel casing. This su
 ##### Example
 ####
 ```sh
-s$("background-color").camelize().result  // 'backgroundColor'
+s$("background color").camelize().result  // 'backgroundColor'
 var obj =  s$("$this is Ganesh shivaram#").between('$', '#').camelize(); // Method chaining
 obj.result; // 'thisIsGaneshShivaram'
 ```
@@ -436,7 +435,7 @@ Truncates the string, based on character count
 ##### Example
 ####
 ```sh
-s$("enter a sample text").truncate(8).result  // 'sample text'
+s$("enter a sample text").truncate(8).result  // 'enter a'
 ```
 
 ####
