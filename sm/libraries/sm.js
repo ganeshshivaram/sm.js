@@ -137,6 +137,16 @@
             return (this.strObj == 'true');
         },
 
+        // cant be chained
+        contains: function (pattern) {
+            return this.strObj.includes(pattern);
+        },
+
+        // cant be chained
+        startsWith: function (pattern) {
+            return this.strObj.startsWith(pattern);
+        },
+
         between: function (delimiter1, delimiter2) {
             if (delimiter1 == null || delimiter1.length > 1 || delimiter2 == null || delimiter2 > 1) {
                 console.error('missing delimiters');
@@ -167,11 +177,6 @@
 
         removeAllWhitespaces: function () {
             this.result = this.strObj = this.strObj.replace(/ +/g, '');
-            return this;
-        },
-
-        contains: function (pattern) {
-            this.result = this.strObj = this.strObj.includes(pattern);
             return this;
         },
 
@@ -247,11 +252,6 @@
 
         repeat: function(times) {
             this.result = this.strObj = this.strObj.repeat(times);
-            return this;
-        },
-
-        startsWith: function (pattern) {
-            this.result = this.strObj = this.strObj.startsWith(pattern);
             return this;
         },
 
