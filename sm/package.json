@@ -1,0 +1,24 @@
+{
+  "name": "string-manipulator",
+  "version": "1.0.0",
+  "description": "String Manipulator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganeshshivaram/sm.js.git"
+  },
+  "keywords": [
+    "string",
+    "manipulator",
+    "s$"
+  ],
+  "author": "Ganesh Shivaram <ganesh.28987@gmail.com> (https://github.com/ganeshshivaram)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ganeshshivaram/sm.js/issues"
+  },
+  "homepage": "https://github.com/ganeshshivaram/sm.js#readme"
+}
